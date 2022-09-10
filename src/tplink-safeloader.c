@@ -1155,9 +1155,15 @@ static struct device_info boards[] = {
 			"{product_name:Archer C6,product_ver:3.20,special_id:52550000}"
 			"{product_name:Archer C6,product_ver:3.20,special_id:4A500000}"
 			"{product_name:Archer C6,product_ver:3.20,special_id:4B520000}"
-			"{product_name:Archer C6,product_ver:3.0.0,special_id:42520000}",
+			"{product_name:Archer A6,product_ver:3.20,special_id:45550000}"
+			"{product_name:Archer A6,product_ver:3.20,special_id:52550000}"
+			"{product_name:Archer C6,product_ver:3.0.0,special_id:42520000}"
+			"{product_name:Archer A6,product_ver:3.0.0,special_id:55530000}"
+			"{product_name:Archer A6,product_ver:3.0.0,special_id:54570000}"
+			"{product_name:Archer A6,product_ver:3.0.0,special_id:43410000}"
+			"{product_name:Archer A6,product_ver:3.0.0,special_id:4A500000}",
 		.part_trail = 0x00,
-		.soft_ver = SOFT_VER_TEXT("soft_ver:1.0.9\n"),
+		.soft_ver = SOFT_VER_TEXT("soft_ver:1.0.14 Build 20211118 rel.43110\n"),
 
 		.partitions = {
 			{"fs-uboot", 0x00000, 0x40000},
